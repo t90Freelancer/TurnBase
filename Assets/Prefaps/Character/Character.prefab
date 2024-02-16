@@ -10,8 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1950403733869429224}
   - component: {fileID: 7180343493116237239}
-  - component: {fileID: 4230593903515319618}
   - component: {fileID: 850205888615931806}
+  - component: {fileID: 3437092819205341318}
+  - component: {fileID: 7600489397787376158}
   m_Layer: 0
   m_Name: Character
   m_TagString: Untagged
@@ -86,27 +87,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &4230593903515319618
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9170502786546407478}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 08c5a0206f41c0245bd06fb89b8e1829, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &850205888615931806
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -119,3 +99,40 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a42ee3fe1b851e748b53e866292d3818, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &3437092819205341318
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9170502786546407478}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3dc5ab10d19654742a8262a403a4a03b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &7600489397787376158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9170502786546407478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97541300826539e488329c59ff33617c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 3437092819205341318}
+  IdleClip: {fileID: 0}
+  AttackClip: {fileID: 0}
+  AlertClip: {fileID: 0}

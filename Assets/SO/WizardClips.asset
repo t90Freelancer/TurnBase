@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cdec84d5b813da46ba0e0ddeb7c3a76, type: 3}
+  m_Name: WizardClips
+  m_EditorClassIdentifier: 
+  IdleClip: {fileID: 7400000, guid: 2e83db36776b91c438e45888cb8b4d50, type: 2}
+  AttackClip: {fileID: 7400000, guid: 77d45557132bbed44ae33b9d16105a19, type: 2}
+  AlertClip: {fileID: 7400000, guid: d18fbc406774e684aa8e76cdd0641305, type: 2}
