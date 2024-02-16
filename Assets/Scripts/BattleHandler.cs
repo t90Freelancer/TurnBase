@@ -28,7 +28,12 @@ public class BattleHandler : MonoBehaviour
             charClipSo = MonsterClip;
         }
 
-       Transform character =  Instantiate(prCharacterBattle, spawnPosition, Quaternion.identity);
+        Transform character =  Instantiate(prCharacterBattle, spawnPosition, Quaternion.identity);
         character.transform.GetComponent<CharacterAnimation>().ApplyAnimationClips(charClipSo);
+
+        if(!isPlayerTeam)
+        {
+            character.transform.localScale = Vector3.one*2;
+        }
     }
 }

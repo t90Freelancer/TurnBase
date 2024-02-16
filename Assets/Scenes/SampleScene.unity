@@ -153,8 +153,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prCharacterBattle: {fileID: 1950403733869429224, guid: 82861da6f8d503b43af35dd43dff8750, type: 3}
-  PlayerClip: {fileID: 11400000, guid: e13853836c389854ab5d5acde6723171, type: 2}
-  MonsterClip: {fileID: 11400000, guid: 39098e760f03e834d8ed7c504cad0070, type: 2}
+  PlayerClip: {fileID: 22100000, guid: 30175a63b331af949848071742961227, type: 2}
+  MonsterClip: {fileID: 22100000, guid: 1d97341324ae49b4798b797f81a1b98e, type: 2}
 --- !u!4 &382010319
 Transform:
   m_ObjectHideFlags: 0

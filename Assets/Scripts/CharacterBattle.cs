@@ -11,4 +11,6 @@ public class CharacterBattle : MonoBehaviour
     {
         characterAnimation = GetComponent<CharacterAnimation>();
     }
+
+
 }
