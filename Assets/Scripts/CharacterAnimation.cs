@@ -9,15 +9,9 @@ public class CharacterAnimation : MonoBehaviour
     public AnimationClip AttackClip;
     public AnimationClip AlertClip;
 
-    public void ApplyAnimationClips(ClipsSO clipSo)
+    public void ApplyAnimationClips(AnimatorOverrideController newAnimator)
     {
-        IdleClip = clipSo.IdleClip;
-        AttackClip = clipSo.AttackClip;
-        AlertClip = clipSo.AlertClip;
-
-        ChangeStateAnimation("Idle", IdleClip);
-        ChangeStateAnimation("Attack", AttackClip);
-        ChangeStateAnimation("Alert", AlertClip);
+        animator.runtimeAnimatorController = newAnimator;
     }
 
     void ChangeStateAnimation(string stateName, AnimationClip newClip)
