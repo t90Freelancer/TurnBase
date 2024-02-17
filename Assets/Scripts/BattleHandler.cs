@@ -36,4 +36,7 @@ public class BattleHandler : MonoBehaviour
             character.transform.localScale = Vector3.one*2;
         }
     }
+
+
+
 }
